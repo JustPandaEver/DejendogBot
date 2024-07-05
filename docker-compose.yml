@@ -1,7 +1,7 @@
 version: '3'
 services:
   bot:
-    container_name: 'TimeFarmBot'
+    container_name: 'DejendogBot'
     build:
       context: .
     stop_signal: SIGINT

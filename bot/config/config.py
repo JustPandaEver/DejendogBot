@@ -7,12 +7,6 @@ class Settings(BaseSettings):
     API_ID: int
     API_HASH: str
 
-    CLAIM_RETRY: int = 1
-    SLEEP_BETWEEN_CLAIM: int = 240
-
-    AUTO_UPGRADE_FARM: bool = True
-    MAX_UPGRADE_LEVEL: int = 6
-
     USE_PROXY_FROM_FILE: bool = False
 
 

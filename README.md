@@ -1,12 +1,3 @@
-
-[<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/SudoLite)
-
-![img1](.github/images/demo.png)
-
-> 🇮🇷 README available in Persian [here](README-FA.md)
-
-> Special Thanks [shamhi](https://github.com/shamhi)
-
 ## Functionality
 | Functional                                                     | Supported |
 |----------------------------------------------------------------|:---------:|
@@ -17,7 +8,7 @@
 | Retry request per claim                                        |     ✅     |
 | Support tdata / pyrogram .session / telethon .session          |     ✅     |
 
-## [Settings](https://github.com/SudoLite/TimeFarmBot/blob/main/.env-example)
+## [Settings](https://github.com/JustPandaEver/DejendogBot/blob/main/.env-example)
 | Setting                   | Description                                                                   |
 |---------------------------|-------------------------------------------------------------------------------|
 | **API_ID / API_HASH**     | Platform data from which to launch a Telegram session (stock - Android)       |
@@ -28,37 +19,37 @@
 | **USE_PROXY_FROM_FILE**   | Whether to use proxy from the `bot/config/proxies.txt` file (True / False)    |
 
 ## Installation
-You can download the [**Repository**](https://github.com/SudoLite/TimeFarmBot) by cloning it to your system and installing the necessary dependencies:
+You can download the [**Repository**](https://github.com/justpandaever/DejendogBot) by cloning it to your system and installing the necessary dependencies:
 ```shell
-~ >>> git clone https://github.com/SudoLite/TimeFarmBot.git
-~ >>> cd TimeFarmBot
+~ >>> git clone https://github.com/justpandaever/DejendogBot.git
+~ >>> cd DejendogBot
 
 # If you are using Telethon sessions, then clone the "converter" branch
-~ >>> git clone https://github.com/SudoLite/TimeFarmBot.git -b converter
-~ >>> cd TimeFarmBot
+~ >>> git clone https://github.com/justpandaever/DejendogBot.git -b converter
+~ >>> cd DejendogBot
 
 #Linux
-~/TimeFarmBot >>> python3 -m venv venv
-~/TimeFarmBot >>> source venv/bin/activate
-~/TimeFarmBot >>> pip3 install -r requirements.txt
-~/TimeFarmBot >>> cp .env-example .env
-~/TimeFarmBot >>> nano .env # Here you must specify your API_ID and API_HASH, the rest is taken by default
-~/TimeFarmBot >>> python3 main.py
+~/DejendogBot >>> python3 -m venv venv
+~/DejendogBot >>> source venv/bin/activate
+~/DejendogBot >>> pip3 install -r requirements.txt
+~/DejendogBot >>> cp .env-example .env
+~/DejendogBot >>> nano .env # Here you must specify your API_ID and API_HASH, the rest is taken by default
+~/DejendogBot >>> python3 main.py
 
 #Windows
-~/TimeFarmBot >>> python -m venv venv
-~/TimeFarmBot >>> venv\Scripts\activate
-~/TimeFarmBot >>> pip install -r requirements.txt
-~/TimeFarmBot >>> copy .env-example .env
-~/TimeFarmBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/TimeFarmBot >>> python main.py
+~/DejendogBot >>> python -m venv venv
+~/DejendogBot >>> venv\Scripts\activate
+~/DejendogBot >>> pip install -r requirements.txt
+~/DejendogBot >>> copy .env-example .env
+~/DejendogBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/DejendogBot >>> python main.py
 ```
 
 Also, for a quick launch, you can use arguments, for example:
 ```shell
-~/TimeFarmBot >>> python3 main.py --action (1/2)
+~/DejendogBot >>> python3 main.py --action (1/2)
 # Or
-~/TimeFarmBot >>> python3 main.py -a (1/2)
+~/DejendogBot >>> python3 main.py -a (1/2)
 
 #1 - Create session
 #2 - Run clicker
