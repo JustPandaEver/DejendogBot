@@ -4,7 +4,6 @@
 | Multithreading                                                 |     ✅     |
 | Binding a proxy to a session                                   |     ✅     |
 | Auto get all tasks except telegram tasks                       |     ✅     |
-| Auto upgrade level for boost farming                           |     ✅     |
 | Retry request per claim                                        |     ✅     |
 | Support tdata / pyrogram .session / telethon .session          |     ✅     |
 
